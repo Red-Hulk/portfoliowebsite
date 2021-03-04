@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 
     <link rel="stylesheet" href="style.css">
-    <title>Portofolio</title>
+    <title>Portofolio TM</title>
 </head>
 <body>
 
-    <section class="showcase">
+    <section class="showcase" id="home">
         <header>
-            <h2 class="logo">Portfolio</h2>
+            <h2 class="logo">Online Portfolio</h2>
             <div class="toggle"></div>
         </header>
 
@@ -22,58 +22,126 @@
 
         <div class="overlay"></div>
         <div class="text">
-            <h2>Never stop</h2>
-            <h3>Exploring the world</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur aspernatur labore, neque dolore atque aliquam molestiae nostrum inventore cum maiores!</p>
-            <a href="#">Explore</a>
+            <h2>Ontdek mijn wereld</h2>
+            <p>Welkom, Ik ben Tristan, een startende webdeveloper! Neem gerust een kijkje! Hier kunt u al mijn werk vinden. </p>
+            <a href="#projecten">Projecten</a>
         </div>
 
     </section>
 
     <div class="menu">
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="http://google.com">Home</a></li>
             <li><a href="#projecten">Projecten</a></li>
-            <li><a href="#">Ik</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#introductie">Introductie</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
 
+    <!-- Projecten gedeelte -->
+
     <div class="title_projecten" id="projecten">
-        <h2>My Projects</h2>
+        <h2>Mijn Projecten</h2>
     </div>
 
     <div class="box">
         <div class="container">
-            <div class="panel" style="background-image: url('https://images.unsplash.com/photo-1613722205361-c75c5f1042fb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=633&q=80')">
-                <h3>Explore The World</h3>
+            <div class="panel active" style="background-image: url('https://images.unsplash.com/photo-1613722205361-c75c5f1042fb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=633&q=80')">
+                <h3>JavaFX</h3>
             </div>
 
             <div class="panel" style="background-image: url('https://images.unsplash.com/photo-1613907145909-4346e61bd57e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=638&q=80')">
-                <h3>Wildfire</h3>
+                <h3>CSS</h3>
             </div>
 
-            <div class="panel active" style="background-image: url('https://images.unsplash.com/photo-1613855233638-8494b9d6247c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80')">
-                <h3>End of the world</h3>
+            <div class="panel" style="background-image: url('https://images.unsplash.com/photo-1613855233638-8494b9d6247c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80')">
+                <h3>PHP</h3>
             </div>
 
             <div class="panel" style="background-image: url('https://images.unsplash.com/photo-1613831242485-ac804daca659?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80')">
-                <h3>Explore The universe</h3>
+                <h3>JavaFx</h3>
             </div>
 
             <div class="panel" style="background-image: url('https://images.unsplash.com/photo-1613730317814-1cede28e0151?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80')">
-                <h3>Explore The clouds</h3>
+                <h3>JavaFX</h3>
             </div>
         </div>
     </div>
 
-    <div class="about_me">
-        <div class="pictures">
-            <div class="picture" style="background-image: ;"></div>
-            <div class="picture"></div>
-            <div class="picture"></div>
+
+<!-- Introductie gedeelte -->
+
+    <div class="wrapper" id="introductie">
+
+        <div class="personal">
+            <div class="zelf">
+                <div class="personal_img">
+                    <img src="images/tristan2.jpg" alt="Tristan">
+                </div>
+                <h3>Tristan Meijer</h3>
+                <p class="title">Web developer</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, veritatis laborum tempore commodi aliquid nisi impedit accusantium ea nam delectus facilis error veniam doloremque quo consequatur eaque vitae dolores accusamus?
+                </p>
+            </div>
         </div>
     </div>
+
+    <!-- Contact gedeelte -->
+
+    <section class="mainbox" id="contact">
+        <section class="contact">
+            <div class="content">
+                <h2>Contact?</h2>
+                <p>Mocht u vragen hebben over mijn projecten of wilt u mij contacteren om bij u te komen werken? Neem dan contact met mij op via dit formulier!</p>
+            </div>
+            <div class="containerContact">
+                <div class="contactInfo">
+                    <div class="boxIcon">
+                        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="textContact">
+                            <h3>Regio</h3>
+                            <p>Rotterdam en omstreken</p>
+                        </div>
+                    </div>
+                    <div class="boxIcon">
+                        <div class="icon"><i class="fas fa-phone-square-alt"></i></div>
+                        <div class="textContact">
+                            <h3>Linkedin</h3>
+                            <p><a href="https://www.linkedin.com/in/tristan-meijer-b32a2518b/">link</a></p>
+                        </div>
+                    </div>
+                    <div class="boxIcon">
+                        <div class="icon"><i class="far fa-envelope"></i></div>
+                        <div class="textContact">
+                            <h3>Email</h3>
+                            <p>tristanemilmeijer@hotmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="contactForm">
+                        <form action="">
+                            <h2>Stuur bericht</h2>
+                            <div class="inputBox">
+                                <input type="text" name="" required="required">
+                                <span>Naam</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="text" name="" required="required">
+                                <span>Email</span>
+                            </div>
+                            <div class="inputBox">
+                                <textarea required="required"></textarea>
+                                <span>Bericht...</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="submit" name="" value="Verstuur">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            
+        </section>
+    </section>
 
     <script src="script.js"></script>
 </body>
